@@ -1,0 +1,6 @@
+Private Sub Worksheet_SelectionChange(ByVal Target As Range)
+Application.ScreenUpdating = False
+Cells.Interior.ColorIndex = 0
+Target.Interior.Color = vbCyan
+Application.ScreenUpdating = True
+End Sub
